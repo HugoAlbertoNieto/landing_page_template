@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<head>
+  <title>Landing page example Example</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+  <!-- Include viewport for proper responsive behaviours -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Example of landing page built with carrousel Bootstrap"></meta>
+  <meta name="keywords" content="HTML, CSS, JS, Bootstrap, carrousel"></meta>
+  <meta name="rating" content="general" />
+  <meta http-equiv="content-language" content="en" />
+  <meta name="distribution" content="global" />
+  <link href="css/master.css" rel="stylesheet" type="text/css"></link>
+  <link rel="shortcut icon" href="src/worker2.ico"/>
+  <!-- Custom stylesheet, minified Bootstrap and minified font awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <!-- Include jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Include jquery ui for basic animations -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <!-- Include my custom js file -->
+  <script src="js/custom.js"></script>
+</head>
+<body class="reg-font">
+  <!-- It is a good idea to clearly indicate the beginning of each section -->
+  <!-- Nav bar section ------------------------------------------------------------------------------->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="src/software-development-500x500.png" width="30px" height="30px" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link btn" href="#howitworks">How it works<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn" href="#pricingsec">View Pricing<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn" href="#services">Services<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-center">
+        <form class="form-inline my-2 my-lg-0">
+          <button type="button" class="btn btn-outline-success mr-3">Request a free demo</button>
+          <button type="button" class="btn btn-outline-primary mr-3">Customer Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrousel section ------------------------------------------------------------------------------->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src/hd-image-example-1a.jpg" class="d-block w-100" alt="...">
+        <div class="custom-carousel-caption carousel-caption d-none d-md-block">
+          <h3>First slide label</h3>
+          <p class="lead">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/hd-image-example-2a.jpg" class="d-block w-100" alt="...">
+        <div class="custom-carousel-caption carousel-caption d-none d-md-block">
+          <h3>Second slide label</h3>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="src/hd-image-example-3a.jpg" class="d-block w-100" alt="...">
+        <div class="custom-carousel-caption  carousel-caption d-none d-md-block">
+          <h3>Third slide label</h3>
+          <p class="lead">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- How it works section. This can be customized according to client needs------------------------>
+<div class="my-5 container text-center" id="howitworks">
+  <h1 class="display-4">How it works</h1>
+  <div class="my-4">
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Sed suscipit porta imperdiet. Vestibulum quis condimentum libero, et ornare tortor.
+      Integer orci ex, vehicula in mollis tempus, feugiat eu quam.
+      Fusce luctus eleifend nulla quis faucibus.
+    </p>
+  </div>
+
+  <div class="container marketing">
+    <div class="row text-center">
+      <div class="col-lg-4" id="effect1">
+        <h2>Step 1</h2>
+        <img class="rounded-circle" src="src/supplier.png" alt="Generic placeholder image" width="140" height="140">
+        <p class="my-5">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.
+          Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4" id="effect2">
+        <h2>Step 2</h2>
+        <img class="rounded-circle" src="src/empresa.png" alt="Generic placeholder image" width="140" height="140">
+        <p class="my-5">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4" id="effect3">
+        <h2>Step 3</h2>
+        <img class="rounded-circle" src="src/construction.png" alt="Generic placeholder image" width="140" height="140">
+        <p class="my-5">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</div>
+
+<!-- Media right section ------------------------------------------------------------------------>
+
+<div class="container custom-background-contrast" id="services">
+  <div align="center" class="">
+    <h1 class="pt-4 display-4">We offer high tech services</h1>
+  </div>
+  <div class="pb-4 pt-4 row">
+    <div class="custom-visibility my-4 col-lg-6 lead" id="fadein-left">
+      <p class="pl-4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+      <div align="center" class="">
+        <button type="button" class="btn btn-lg btn-outline-success mb-4">
+          Request a free demo
+        </button>
+      </div>
+    </div>
+    <div align="center" class="custom-visibility my-4 col-lg-6" id="fadein-right">
+        <!-- Autoplay option can be used before controls -->
+        <video class="custom-height custom-width col-sm-6" controls src="src/video.ogv" type="video/ogv" poster="src\software-development-500x500.png"></video>
+    </div>
+  </div>
+</div>
+
+  <!-- Pricing section ------------------------------------------------------------------------------->
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="pricingsec">
+    <h1 class="display-4">Pricing</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat neque eu urna ultricies efficitur fringilla a turpis. Sed nec efficitur turpis, non laoreet purus. Phasellus lacinia molestie orci at ultricies.</p>
+  </div>
+  <br>
+  <div class="pb-4 container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 shadow-lg">
+        <div class="text-white bg-dark card-header">
+          <h4 class="my-0 font-weight-normal">Free</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4 text-left ml-3">
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>10 users included</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>2 GB of storage</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>Email support</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-success">Request a free demo</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-lg">
+        <div class="text-white bg-dark card-header">
+          <h4 class="my-0 font-weight-normal">Pro</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4 text-left ml-3">
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>20 users included</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>10 GB of storage</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>Priority email support</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-success">Get started</button>
+        </div>
+      </div>
+      <div class="card mb-4 shadow-lg">
+        <div class="text-white bg-dark card-header">
+          <h4 class="my-0 font-weight-normal">Enterprise</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4 text-left ml-3">
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>30 users included</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>15 GB of storage</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>Phone and email support</li>
+            <li><i class="fa fa-check fa-lg text-success mr-3" aria-hidden="true"></i>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-success">Contact us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Media left section ------------------------------------------------------------------------>
+
+  <div class="container custom-background-contrast">
+    <div align="center" class="">
+      <h1 class="pt-4 display-4">Discover how we can help your business</h1>
+    </div>
+    <div class="pb-4 pt-4 row">
+      <div align="center" class="custom-visibility my-4 col-lg-6" id="fadein-left-2">
+          <img class="custom-height custom-width col-sm-6" src="src/Hit_The_Trash_GIF.gif"></img>
+      </div>
+      <div class="custom-visibility my-4 col-lg-6 lead" id="fadein-right-2">
+        <p class="pl-4">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <div align="center" class="">
+          <button type="button" class="btn btn-lg btn-outline-success mb-4">
+            Learn more...
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Custom section-------------------------------------------------------->
+
+<div class="container">
+  <div align="center" class="">
+    <h1 class="pt-4 pb-4 display-4">Know the team!</h1>
+    <p class="lead">
+      Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+    </p>
+    <p>Tap or hover to see details.</p>
+  </div>
+  <div class="row text-center pb-4">
+    <div class="flip-card my-4 col-lg-4" style="width:100%">
+      <div class="flip-card-inner">
+        <div class="flip-card-front pt-4 pl-4 pr-4">
+          <img src="src/supplier.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back pt-4 pl-4 pr-4">
+          <h1>Hugo Nieto Loredo</h1>
+          <p>CEO & Chairman</p>
+          <p>Praesent bibendum sem urna,
+            non dapibus tellus fringilla quis.
+            Quisque rutrum nec mauris a feugiat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card my-4 col-lg-4" style="width:100%;">
+      <div class="flip-card-inner">
+        <div class="flip-card-front pt-4 pl-4 pr-4">
+          <img src="src/supplier.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back pt-4 pl-4 pr-4">
+          <h1>Richard Bernstein</h1>
+          <p>Web Developer</p>
+          <p>Pellentesque eget congue tortor, a posuere diam.
+            In hac habitasse platea dictumst.
+            Cras et eros accumsan justo accumsan bibendum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flip-card my-4 col-lg-4" style="width:100%;">
+      <div class="flip-card-inner">
+        <div class="flip-card-front pt-4 pl-4 pr-4">
+          <img src="src/supplier.png" alt="Avatar">
+        </div>
+        <div class="flip-card-back pt-4 pl-4 pr-4">
+          <h1>John Doe</h1>
+          <p>Architect & Engineer</p>
+          <p>Mauris diam nunc, vulputate sed dictum vitae, finibus ut mauris.
+            Donec quis commodo lectus, non convallis metus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center pb-4">
+    <p class="lead pb-4">
+      We are here to help you.
+      Sed diam diam, sagittis sed mauris eu, elementum pharetra magna.
+      Nam suscipit venenatis est ut scelerisque.
+      Quisque rhoncus egestas felis eu mattis.
+      Integer nec tincidunt odio, eu fermentum tellus.
+      Vestibulum a nibh interdum, hendrerit neque et, tincidunt ipsum. Suspendisse potenti.
+    </p>
+    <button type="button" class="btn btn-lg btn-outline-success">Request a free demo</button>
+  </div>
+</div>
+
+<!-- Footer of the landing page ----------------------------------------------->
+<div class="container pt-4 custom-background-contrast">
+  <div class="row d-flex align-items-stretch text-center">
+    <div class="pt-4 pl-4 col-lg-4">
+      <img src="src\software-development-500x500.png" width="60px" height="60px" >
+      <h2>Company Name</h2>
+      <p>Address Street and number<br>Telephone and email<br>City, State and Country<br>Postal Code<br></p>
+    </div>
+
+    <div class="pt-4 col-lg-4">
+      <h2>Follow us!</h2>
+
+      <div class="row d-flex justify-content-center" align="center">
+        <div class="col-xs-4 pt-4">
+          <img src="src\twitter-icon-1.png" alt="" class="social-icon">
+        </div>
+        <div class="col-xs-4 pt-4">
+          <img src="src\whatsapp-icon-1.png" alt="" class="social-icon">
+        </div>
+        <div class="col-xs-4 pt-4">
+          <img src="src\youtube-icon-1.png" alt="" class="social-icon">
+        </div>
+        <div class="col-xs-4 pt-4">
+          <img src="src\facebook-icon-1.png" alt="" class="social-icon">
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-4 col-lg-4">
+      <h2>Quick Links</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item custom-background-contrast"><a href="#">Customer Login</a></li>
+        <li class="list-group-item custom-background-contrast"><a href="#">Contact Us</a></li>
+        <li class="list-group-item custom-background-contrast"><a href="#">Privacy Policy</a></li>
+        <li class="list-group-item custom-background-contrast"><a href="#">About</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<div class="pt-4 pb-4 text-center bg-dark text-light">
+  <p>Copyright Company Name All rights reserved 2020<br>Degined with passion in Mexico</p>
+</div>
+
+
+  <!-- Include js files and plugins needed for Bootstrap to work -->
+  <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!-- Include Boostrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
